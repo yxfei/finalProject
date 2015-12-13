@@ -48,4 +48,8 @@ it will apply the following code for desktop*/
     }
 }
 
+#map {
+    height: 100%;
+}
+
 }
