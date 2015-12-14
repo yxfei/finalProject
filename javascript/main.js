@@ -10,7 +10,7 @@ var initMap = (function() {
                 lat: -34.397,
                 lng: 150.644
             },
-            zoom: 14
+            zoom: 16
         });
         var infoWindow = new google.maps.InfoWindow({
             map: map
@@ -34,7 +34,7 @@ var initMap = (function() {
             service.nearbySearch({
                 location: coor,
                 radius: 500,
-                types: ['atm']
+                types: ['museum']
             }, callback);
 
         }, function() {
